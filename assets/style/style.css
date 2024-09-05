@@ -9,3 +9,28 @@
 .profile-picture.profile-picture-sm {
   height: 64px;
 }
+
+main {
+  background-color: var(--bs-dark);
+}
+
+.generation {
+  color: red;
+  border: 1px solid red;
+}
+
+.pokemon-list {
+  height: 80vh;
+  border-radius: 10px;
+  border: 2px solid red;
+  background-color: var(--bs-dark);
+  color: #00FF00;
+  overflow-y: auto;
+  padding: 1em;
+}
+
+.rounded-grn {
+  border-radius: 10px;
+  border: 2px solid #00ff00;
+  padding: 1em;
+}
